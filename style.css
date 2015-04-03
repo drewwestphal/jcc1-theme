@@ -1,0 +1,142 @@
+/*
+Theme Name: JoCo Cruise Crazy
+Description: Son of Sandbox Child Theme for JoCo Cruise Crazy
+Author: DanCoulter
+Author URI: http://dancoulter.com/
+Template: sos
+Version: 0.1
+*/
+
+@import url("../sos/style.css");
+
+body {
+	text-align: center;
+	font-family: Arial;
+	font-size: 10pt;
+	padding: 0px;
+	margin: 0px;
+	background-color: #00abf1;
+}
+
+a {
+	color: #0c558d;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0c558d;
+	text-decoration: underline;
+}
+
+#wrapper {
+	margin: 0px auto;
+	width: 920px;
+	padding: 0px 20px 1em;
+	text-align: left;
+	background: white url("images/header2.gif") scroll no-repeat;
+	margin-bottom: 20px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+}
+
+#header h1, #header div#blog-description {
+	display: none;
+}
+
+.clear {
+	clear: both;
+}
+
+#access {
+}
+
+div#menu {
+	background: transparent;
+	font-size: 14pt;
+	font-family: Georgia, Times New Roman;
+	font-style:italic;
+	
+}
+
+#menu .divider {
+	width: 6px;
+	background-image: url(images/bullet.gif);
+	background-repeat: no-repeat;
+	background-position: center 10px;
+	padding: 3px 0px;
+	margin: 0px .5em;
+}
+
+#header {
+	height: 246px;
+	position: relative;
+} 
+
+#home-link {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 260px;
+	width: 440px;
+}
+
+#header-widgets {
+	background-color: #333;
+	color: white;
+	width: 360px;
+	padding: 20px;
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+}
+
+#wrapper div#menu ul a, #wrapper div#menu ul a:visited {
+	color: red;
+	margin: 0px;
+}
+
+ #wrapper div#menu ul a:hover {
+	text-decoration: underline;
+ }
+ 
+ div.skip-link {
+	display: none;
+ }
+ 
+ div.entry-date {
+	margin-top: -1.2em;
+	font-size: 80%;
+ }
+ 
+ h2#news {
+	margin: 2em 0px .5em;
+	border-bottom: 3px solid #00abf1;
+ }
+ 
+ div#book-now {
+	width: 400px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+ }
+ 
+ a img {
+	border: 0px;
+ }
+ 
+ #content table th, #content table td{
+	padding: 8px 7px 8px 7px;
+ }
+
+ #footer {
+	padding-top: 1em;
+ }
+ 
+ #footer #legal {
+	color: #999;
+	font-size: 90%;
+	text-align: right;
+ }

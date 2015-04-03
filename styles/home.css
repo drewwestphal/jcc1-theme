@@ -1,0 +1,108 @@
+div#container {
+	float:none;
+	margin: 2em 0px 0px;
+	width:100%;
+}
+
+div#content {
+	padding: 25px 75px;
+	border: 1px solid #777;
+	background-image: url(../images/home-content-gradient.png);
+	margin: -20px 0px 25px;
+}
+
+#content .page {
+	width: 369px;
+}
+
+#photo-grid {
+	float: right;
+	position: relative;
+	width: 461px;
+}
+
+.grid-photo {
+	position: absolute;
+}
+
+a .grid-photo {
+	border: 0px;
+}
+
+.sidebar#left {
+	width: 200px;
+	float: left;
+	margin-left: 75px;
+}
+
+.sidebar#right {
+	width: 200px;
+	margin-right: 75px;
+	float: right;
+}
+
+.sidebar#middle {
+	width: 400px;
+	margin: 0px 300px;
+}
+
+div.sidebar h3 {
+	border-bottom: 3px solid red;
+	padding-bottom: 4px;
+	font-size: 22px;
+	text-transform: lowercase;
+	margin-bottom: 4px;
+}
+
+div.sidebar {
+	font-size: 87%
+}
+
+#twitter-feed ul, #upcoming-gigs ul.gigs {
+	margin: 0px;
+	padding: 0px;
+}
+
+#twitter-feed ul li, #upcoming-gigs li.gig {
+	list-style-type: none;
+	padding: 11px;
+}
+
+#twitter-feed span.user {
+	font-weight: bold;
+}
+
+.tweet.even, .gig.even {
+	background-color: #e6e6e6;
+}
+
+div.sidebar div.sidebar-more {
+	margin-top: 1em;
+	padding-top: 1em;
+	border-top: 3px solid #b3b3b3;
+	text-align: right;
+	font-weight: bold;
+}
+
+.gig {
+	cursor: pointer;
+}
+
+.gig .gig-date {
+	border: 1px solid #999;
+	margin: 0px 8px 0px 3px;
+	padding: 8px;
+	text-align: center;
+	border-radius: 3px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 40px;
+	font-size: 110%;
+}
+
+.gig .venue, .gig .cityState {
+	font-weight: bold;
+	font-size: 125%;
+}
